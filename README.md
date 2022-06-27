@@ -6,7 +6,7 @@ Dynamic API Phase 3: Adding Database Abstraction and Associations to API
 [Pull](https://github.com/AhmadAmaireh/api-servers/pull/1)
 
 ## UML diagram for this server:
-![img](/assets/UML%20API%20Server.png
+![img](/assets/UML%20API%20Server.png)
 
 
 ## Test
