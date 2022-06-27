@@ -1,0 +1,31 @@
+{
+  "name": "api-servers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest --coverage --verbose",
+    "dev": "NODE_ENV=development nodemon index.js",
+    "start": "NODE_ENV=production node index.js"  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmadAmaireh/api-servers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmadAmaireh/api-servers/issues"
+  },
+  "homepage": "https://github.com/AhmadAmaireh/api-servers#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.18",
+    "pg": "^8.7.3",
+    "sequelize": "^6.21.1",
+    "sqlite3": "^5.0.8",
+    "supertest": "^6.2.3"
+  }
+}
